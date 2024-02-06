@@ -45,9 +45,12 @@
 
 ### Решение 1
 
-Схема в формате pkt
+[Схема в формате pkt](https://github.com/blackgult/sflt-hw1/blob/main/hsrp_advance_mikhaylov.pkt)
 
-Скриншот процесса настройки маршрутизатора
+Скриншоты процесса настройки маршрутизатора
+
+![1-1](https://github.com/blackgult/sflt-hw1/blob/main/1-1.PNG)
+![1-2](https://github.com/blackgult/sflt-hw1/blob/main/1-2.PNG)
 
 
 ------

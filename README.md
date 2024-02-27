@@ -67,8 +67,14 @@
 ### Решение 2
 
 [bash-скрипт](https://github.com/blackgult/sflt-hw1/blob/main/test.sh)
+
+
 [конфигурационный файл keepalived - компьютер №1](https://github.com/blackgult/sflt-hw1/blob/main/keepalived.conf)
+
+
 [конфигурационный файл keepalived - компьютер №2](https://github.com/blackgult/sflt-hw1/blob/main/keepalived2.conf)
+
+
 
 Я настроил два виртуальных компьютера. МАСТЕР с адресом 192.168.0.54 , БЭКАП с адресом 192.168.0.94 . Плавающий ip-адрес сделал 192.168.0.250 .
 На стриншоте виден плавающий адрес в адресной строке и адрес сервера в теле страницы.

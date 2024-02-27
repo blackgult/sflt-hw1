@@ -66,6 +66,28 @@
 
 ### Решение 2
 
+[bash-скрипт](https://github.com/blackgult/sflt-hw1/blob/main/test.sh)
+[конфигурационный файл keepalived - компьютер №1](https://github.com/blackgult/sflt-hw1/blob/main/keepalived.conf)
+[конфигурационный файл keepalived - компьютер №2](https://github.com/blackgult/sflt-hw1/blob/main/keepalived2.conf)
+
+Я настроил два виртуальных компьютера. МАСТЕР с адресом 192.168.0.54 , БЭКАП с адресом 192.168.0.94 . Плавающий ip-адрес сделал 192.168.0.250 .
+На стриншоте виден плавающий адрес в адресной строке и адрес сервера в теле страницы.
+![2-1](https://github.com/blackgult/sflt-hw1/blob/main/2-1.PNG)
+
+Статус МАСТЕРА
+![2-2](https://github.com/blackgult/sflt-hw1/blob/main/2-2.PNG)
+
+Статус БЭКАПА
+![2-3](https://github.com/blackgult/sflt-hw1/blob/main/2-3.PNG)
+
+Далее я переименовал файл index.html на index2.html . МАСТЕР сервер понизил свой приоритет и в дело вступил БЭКАП сервер - скрин с телом страницы:
+![2-4](https://github.com/blackgult/sflt-hw1/blob/main/2-4.PNG)
+
+Статус МАСТЕРА после переименования файла index.html на index2.html на МАСТЕР сервере
+![2-5](https://github.com/blackgult/sflt-hw1/blob/main/2-5.PNG)
+
+Статус БЭКАПА после переименования файла index.html на index2.html на МАСТЕР сервере
+![2-6](https://github.com/blackgult/sflt-hw1/blob/main/2-6.PNG)
 
 
 ------
